@@ -144,6 +144,11 @@ a {
     color: var(--orange);
 }
 
+/*.dropdown-content nav a:last-child {
+
+	border-bottom: 2px solid var(--blue);
+}*/
+
 .dropdown-background {
     background-color: #f3f3f3;
 }
@@ -355,7 +360,8 @@ a {
 
 .article-filter {
 	display: flex;
-	width: 250px;
+	width: 95%;
+	max-width: 350px;
 	justify-content: space-between;
 	align-items: center;
 	padding: max(3vw, 40px) 0 max(3vw, 40px) 10px;

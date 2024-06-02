@@ -32,6 +32,8 @@ const news = document.getElementsByClassName("news");
 
 const review = document.getElementsByClassName("review");
 
+const blog = document.getElementsByClassName("blog");
+
 function filterBtnBackGround() {
 
 	const filterBtnBackGround = document.getElementsByClassName("filter-btn-background");
@@ -56,6 +58,13 @@ function articleFilterAll() {
             review[i].style.display = "flex";
         }
 	};
+
+	if (blog) {
+		for (let i = 0; i < review.length; i++) {
+            blog[i].style.display = "flex";
+        }
+	};
+
 };
 
 function articleFilterNews() {
@@ -71,6 +80,12 @@ function articleFilterNews() {
             review[i].style.display = "none";
         }
 	};
+
+	if (blog) {
+		for (let i = 0; i < review.length; i++) {
+            blog[i].style.display = "none";
+        }
+	};
 };
 
 function articleFilterReview() {
@@ -84,6 +99,33 @@ function articleFilterReview() {
 	if (review) {
 		for (let i = 0; i < review.length; i++) {
             review[i].style.display = "flex";
+        }
+	};
+
+	if (blog) {
+		for (let i = 0; i < review.length; i++) {
+            blog[i].style.display = "none";
+        }
+	};
+};
+
+function articleFilterBlog() {
+	
+	if (news) {
+        for (let i = 0; i < news.length; i++) {
+            news[i].style.display = "none";
+        }
+   	};
+	
+	if (review) {
+		for (let i = 0; i < review.length; i++) {
+            review[i].style.display = "none";
+        }
+	};
+
+	if (blog) {
+		for (let i = 0; i < review.length; i++) {
+            blog[i].style.display = "flex";
         }
 	};
 };
