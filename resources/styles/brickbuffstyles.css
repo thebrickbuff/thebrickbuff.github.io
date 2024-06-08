@@ -435,11 +435,17 @@ a {
     margin: 5px 0;
 }
 
+.price-list {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
 .price-link {
 	text-decoration: underline;
 	font-weight: 700;
 	color: var(--orange);
 	transition: 0.2s ease;
+
 }
 
 .price-link:hover {
