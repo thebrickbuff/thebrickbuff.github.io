@@ -195,6 +195,7 @@ a {
 	font-style: italic;
 	font-weight: 200;
     padding-top: 10px;
+    text-wrap: nowrap;
 }
 
 .article-display {
@@ -230,6 +231,7 @@ a {
 	border-radius: 3px;
 	background-color: var(--orange);
 	transition: 0.2s ease;
+	text-wrap: nowrap;
 }
 
 .large-read-button:hover {
