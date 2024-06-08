@@ -212,7 +212,7 @@ a {
 }
 
 .large-article-title {
-	font-size: clamp(30px, 3vw, 40px);
+	font-size: clamp(25px, 3vw, 35px);
 	padding-top: max(0.5vw, 10px);
 	line-height: 115%;
 }
@@ -407,6 +407,66 @@ a {
 	border-radius: 3px;
 }
 
+/*=============== Article ================*/
+
+.margin-top {
+	margin-top: max(30px, 3vw);
+}
+
+.article-body {
+	margin-top: 60px;
+}
+
+.article-title {
+	font-size: ;
+}
+
+.article-text {
+    max-width: 1000px;
+    font-size: clamp(15px, 04vw, 20px);
+    line-height: 1.2;
+}
+
+.price {
+	font-size: clamp(15px, 04vw, 20px);
+    line-height: 1.2;
+    margin: 5px 0;
+}
+
+.price-link {
+	text-decoration: underline;
+	font-weight: 700;
+	color: var(--orange);
+	transition: 0.2s ease;
+}
+
+.price-link:hover {
+	color: black;
+	transition: 0.2s ease;
+}
+
+.img-double-cntner {
+	display: flex; 
+	justify-content: space-around;
+	align-items: center;
+}
+
+.double-cntner-cld {
+	width: 49%;
+	aspect-ratio: 5.5/4;
+}
+
+.article-inline-lnk {
+	color: var(--orange);
+	text-decoration: underline;
+	transition: 0.2s ease;
+}
+
+.article-inline-lnk:hover {
+	color: black;
+	transition: 0.2s ease;
+}
+
 /*================ Footer ================*/
 
 
@@ -553,6 +613,15 @@ a {
 		height: 140px;
 		width: 100vw;
 		padding-top: 20px;
+	}
+
+	.img-double-cntner {
+		flex-direction: column;
+	}
+
+	.double-cntner-cld {
+        width: 95%;
+        margin-top: 8px;
 	}
 }
 

@@ -153,6 +153,29 @@ if (footer) {
 	footer.innerHTML += footerContents;
 };
 
+// insert article footer 
+
+const footerArticle = document.getElementById("footer-article");
+
+const footerArticleContents = `        <nav class="footer-nav">
+			<a class="footer-link" href="../index.html" class="nav-link">Home</a>
+			<a class="footer-link" href="../articles.html" class="nav-link">Articles</a>
+			<a class="footer-link" href="../gallery.html" class="nav-link">Gallery</a>
+			<a class="footer-link" href="https://www.instagram.com/thebrickbuff/" class="nav-link" target="blank_">Instagram</a>
+		</nav>
+
+    	<div class="buy-lego"> 
+    		<a href="https://www.lego.com/en-gb" target="blank_">
+    		    <img class="buy-lego-logo" src="../resources/images/lego-logo.png">
+    		</a>
+    		<p class="buy-lego-text oswald">Buy Lego</p>
+    	    
+        </div>`;
+
+if (footerArticle) {
+	footerArticle.innerHTML += footerArticleContents;
+};
+
 // insert copyright //////////////////////////////////////////
 
 const copyright = document.getElementById("copyright");
