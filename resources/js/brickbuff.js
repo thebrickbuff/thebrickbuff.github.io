@@ -130,6 +130,42 @@ function articleFilterBlog() {
 	};
 };
 
+// insert article header ////////////////////////////////
+
+const header = document.getElementById("header");
+
+const headerContents = `<h1 class="page-title"><a href="../index.html">The Brick Buff</a></h1>
+		<nav class="big-nav">
+			<a href="../index.html" class="nav-link">Home</a>
+			<a href="../articles.html" class="nav-link">Articles</a>
+			<a href="../gallery.html" class="nav-link">Gallery</a>
+			<a href="https://www.instagram.com/thebrickbuff/" class="nav-link" target="blank_">
+				<img src="../resources/images/insta-link.png" class="insta-icon">
+			</a>
+		</nav>
+
+				<!-- Dropdown -->
+
+			    	<div class="dropdown">
+	            <div class="hamburger">
+	                <span class="top"></span>
+	                <span class="middle"></span>
+	                <span class="bottom"></span>
+	            </div>
+	            <div class="dropdown-content">
+	                <nav>
+	                    <a href="../index.html">Home</a>
+	            		<a href="../articles.html">Articles</a>
+	            		<a href="../gallery.html">Gallery</a>
+	            		<a href="https://www.instagram.com/thebrickbuff/" target="blank_">Instagram</a>
+	                </nav>
+	            </div>
+	        </div>`;
+
+if (header) {
+	header.innerHTML += headerContents;
+}
+
 // insert footer ////////////////////////////////////////
 
 const footer = document.getElementById("footer");
