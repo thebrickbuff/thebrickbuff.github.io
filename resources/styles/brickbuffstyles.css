@@ -363,7 +363,7 @@ a {
 .article-filter {
 	display: flex;
 	width: 95%;
-	max-width: 150px;
+	max-width: 210px;
 	justify-content: space-between;
 	align-items: center;
 	padding: max(3vw, 40px) 0 max(3vw, 40px) 10px;

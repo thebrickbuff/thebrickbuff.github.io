@@ -22,8 +22,11 @@ const favicon = `
     <link rel="icon" type="image/png" sizes="16x16" href="./resources/images/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">`
 
+const ads = `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9784097939574891"
+     crossorigin="anonymous"></script>`
+
 if(head){
-    head.innerHTML += favicon;
+    head.innerHTML += ads;
 };
 
 // article filter
@@ -60,7 +63,7 @@ function articleFilterAll() {
 	};
 
 	if (blog) {
-		for (let i = 0; i < review.length; i++) {
+		for (let i = 0; i <= review.length; i++) {
             blog[i].style.display = "flex";
         }
 	};
@@ -82,7 +85,7 @@ function articleFilterNews() {
 	};
 
 	if (blog) {
-		for (let i = 0; i < review.length; i++) {
+		for (let i = 0; i <= review.length; i++) {
             blog[i].style.display = "none";
         }
 	};
@@ -124,7 +127,7 @@ function articleFilterBlog() {
 	};
 
 	if (blog) {
-		for (let i = 0; i < review.length; i++) {
+		for (let i = 0; i <= review.length; i++) {
             blog[i].style.display = "flex";
         }
 	};
