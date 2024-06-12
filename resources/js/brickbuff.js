@@ -25,9 +25,9 @@ const favicon = `
 const ads = `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9784097939574891"
      crossorigin="anonymous"></script>`
 
-if(head){
-    head.innerHTML += ads;
-};
+// if(head){
+//     head.innerHTML += ads;
+// };
 
 // article filter
 
