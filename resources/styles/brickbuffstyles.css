@@ -384,6 +384,7 @@ a {
 	font-size: clamp(20px, 3vw, 20px);
 	cursor: pointer;
 	background-color: white;
+	color: black;
 }
 
 .filter-button:hover {
