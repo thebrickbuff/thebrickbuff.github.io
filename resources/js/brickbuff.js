@@ -148,20 +148,20 @@ if (copyright) {
 
 const articleListOrigional = [
 
-                 {
-                     img: `article-images/crafting-table/minecraft1.webp`, 
-                     title: `3Lego Crafting Table (21265) Celebrating 15 years of Minecraft`, 
-                     type: `news`,
-                     date: `7th June 2024`, 
-                     link: `crafting-table.html`
-                 },
-                 {
-                     img: `article-images/crafting-table/minecraft1.webp`, 
-                     title: `4Lego Crafting Table (21265) Celebrating 15 years of Minecraft`, 
-                     type: `news`,
-                     date: `7th June 2024`, 
-                     link: `crafting-table.html`
-                 },
+                 // {
+                 //     img: `article-images/crafting-table/minecraft1.webp`, 
+                 //     title: `Article Coming Soon`, 
+                 //     type: `news`,
+                 //     date: `7th June 2024`, 
+                 //     link: `crafting-table.html`
+                 // },
+                 // {
+                 //     img: `article-images/crafting-table/minecraft1.webp`, 
+                 //     title: `4Lego Crafting Table (21265) Celebrating 15 years of Minecraft`, 
+                 //     type: `news`,
+                 //     date: `7th June 2024`, 
+                 //     link: `crafting-table.html`
+                 // },
                      {
                      img: `article-images/crafting-table/minecraft1.webp`, 
                      title: `Lego Crafting Table (21265) Celebrating 15 years of Minecraft`, 
@@ -180,7 +180,7 @@ const articleListOrigional = [
                      img: `article-images/retiring-2024/retiring-2024.png`, 
                      title: `Every Lego Star Wars Set Retiring 2024`, 
                      type: `blog`,
-                     date: `(date)`, 
+                     date: `19th June 2024`, 
                      link: `starwars-retiring-2024.html`
                  }
                  
@@ -272,7 +272,7 @@ const articlePageContainer = document.getElementById("article-page-container");
 
 
 const articlePageFunc = (list) => {
-	const newElementOne = `<div class="news article">
+	const newElementOne = `<div class="article">
             	<img src="articles/`;
 
     const newElementTwo = `" class="article-img">
