@@ -48,6 +48,10 @@ a {
   letter-spacing: 0.5px;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 /*=========== Header ==========*/
 
 .header {

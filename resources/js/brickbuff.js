@@ -25,10 +25,10 @@ const favicon = `
     <link rel="manifest" href="./resources/images/favicon_io/site.webmanifest">`
 
 const faviconArticle = `
-    <link rel="apple-touch-icon" sizes="180x180" href="../resources/images/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../resources/images/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../resources/images/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="../resources/images/favicon_io/site.webmanifest">`;
+    <link rel="apple-touch-icon" sizes="180x180" href="../../resources/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../resources/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../resources/images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../../resources/images/favicon_io/site.webmanifest">`;
 
 // const ads = `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9784097939574891"
 //      crossorigin="anonymous"></script>`
@@ -44,13 +44,13 @@ if(head){
 
 const header = document.getElementById("header");
 
-const headerContents = `<h1 class="page-title"><a href="../index.html">The Brick Buff</a></h1>
+const headerContents = `<h1 class="page-title"><a href="../../index.html">The Brick Buff</a></h1>
 		<nav class="big-nav">
-			<a href="../index.html" class="nav-link">Home</a>
-			<a href="../articles.html" class="nav-link">Articles</a>
-			<a href="../gallery.html" class="nav-link">Gallery</a>
+			<a href="../../index.html" class="nav-link">Home</a>
+			<a href="../../articles.html" class="nav-link">Articles</a>
+			<a href="../../gallery.html" class="nav-link">Gallery</a>
 			<a href="https://www.instagram.com/thebrickbuff/" class="nav-link" target="blank_">
-				<img src="../resources/images/insta-link.png" class="insta-icon">
+				<img src="../../resources/images/insta-link.png" class="insta-icon">
 			</a>
 		</nav>
 
@@ -64,9 +64,9 @@ const headerContents = `<h1 class="page-title"><a href="../index.html">The Brick
 	            </div>
 	            <div class="dropdown-content">
 	                <nav>
-	                    <a href="../index.html">Home</a>
-	            		<a href="../articles.html">Articles</a>
-	            		<a href="../gallery.html">Gallery</a>
+	                    <a href="../../index.html">Home</a>
+	            		<a href="../../articles.html">Articles</a>
+	            		<a href="../../gallery.html">Gallery</a>
 	            		<a href="https://www.instagram.com/thebrickbuff/" target="blank_">Instagram</a>
 	                </nav>
 	            </div>
@@ -104,15 +104,15 @@ if (footer) {
 const footerArticle = document.getElementById("footer-article");
 
 const footerArticleContents = `        <nav class="footer-nav">
-			<a class="footer-link" href="../index.html" class="nav-link">Home</a>
-			<a class="footer-link" href="../articles.html" class="nav-link">Articles</a>
-			<a class="footer-link" href="../gallery.html" class="nav-link">Gallery</a>
+			<a class="footer-link" href="../../index.html" class="nav-link">Home</a>
+			<a class="footer-link" href="../../articles.html" class="nav-link">Articles</a>
+			<a class="footer-link" href="../../gallery.html" class="nav-link">Gallery</a>
 			<a class="footer-link" href="https://www.instagram.com/thebrickbuff/" class="nav-link" target="blank_">Instagram</a>
 		</nav>
 
     	<div class="buy-lego"> 
     		<a href="https://www.lego.com/en-gb" target="blank_">
-    		    <img class="buy-lego-logo" src="../resources/images/lego-logo.png">
+    		    <img class="buy-lego-logo" src="../../resources/images/lego-logo.png">
     		</a>
     		<p class="buy-lego-text oswald">Buy Lego</p>
     	    
@@ -163,25 +163,32 @@ const articleListOrigional = [
                  //     link: `crafting-table.html`
                  // },
                      {
-                     img: `article-images/crafting-table/minecraft1.webp`, 
+                     img: `2024/article-images/crafting-table/minecraft1.webp`, 
                      title: `Lego Crafting Table (21265) Celebrating 15 years of Minecraft`, 
                      type: `news`,
                      date: `7th June 2024`, 
-                     link: `crafting-table.html`
+                     link: `2024/crafting-table.html`
                  },
                   {
-	                  img: `article-images/lambo-countach/lambo2.webp`, 
+	                  img: `2024/article-images/lambo-countach/lambo2.webp`, 
 	                  title: `Lamborghini Countach 5000 Quattrovalvole (10337) Latest Edition to Lego Icons`, 
 	                  type: `news`,
 	                  date: `9th June 2024`,
-	                  link: `lambo-countach.html`
+	                  link: `2024/lambo-countach.html`
 	              },
                    {
-                     img: `article-images/retiring-2024/retiring-2024.png`, 
+                     img: `2024/article-images/retiring-2024/retiring-2024.png`, 
                      title: `Every Lego Star Wars Set Retiring 2024`, 
                      type: `blog`,
                      date: `19th June 2024`, 
-                     link: `starwars-retiring-2024.html`
+                     link: `2024/starwars-retiring-2024.html`
+                 },
+                 {
+                 	img: `2024/article-images/rtg-dark-falcon/cover.png`,
+                 	title: `New Rebuild The Galaxy Sets Revealed`,
+                 	type: `news`,
+                 	date: `22nd June 2024`,
+                 	link: `2024/rtg-darkfalcon.html`
                  }
                  
                  ];
@@ -382,7 +389,7 @@ const articelFooterLinksFunc = (allArticles) => {
 	const first = `<div class="article article-foot">
         	
         	    <div class="lndscpe-cnter-foot-img">
-        		    <img src="`;
+        		    <img src="../`;
 
     const second = `" class="article-img">
         	    </div>
@@ -393,7 +400,7 @@ const articelFooterLinksFunc = (allArticles) => {
 				    <p class="article-date">`;
 
 	const fourth = `</p>
-				    <a class="small-read-button" href="`;
+				    <a class="small-read-button" href="../`;
 
     const fifth = `">View Article</a>
 			    </div>
