@@ -203,10 +203,10 @@ a {
 
 .article-date {
 	display: block;
-	font-style: italic;
 	font-weight: 200;
     padding-top: 10px;
     text-wrap: nowrap;
+    font-style: italic;
 }
 
 .article-display {
