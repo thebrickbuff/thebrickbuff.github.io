@@ -187,7 +187,7 @@ const articleListOrigional = [
                  	img: `2024/article-images/rtg-dark-falcon/cover.png`,
                  	title: `New Rebuild The Galaxy Sets Revealed`,
                  	type: `news`,
-                 	date: `22nd June 2024`,
+                 	date: `29nd June 2024`,
                  	link: `2024/rtg-darkfalcon.html`
                  }
                  
