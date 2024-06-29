@@ -187,8 +187,15 @@ const articleListOrigional = [
                  	img: `2024/article-images/rtg-dark-falcon/cover.png`,
                  	title: `New Rebuild The Galaxy Sets Revealed`,
                  	type: `news`,
-                 	date: `29nd June 2024`,
+                 	date: `29th June 2024`,
                  	link: `2024/rtg-darkfalcon.html`
+                 },
+                 {
+                 	img: `2024/article-images/creative-droid-builder-images/droidbuilder4.webp`,
+                 	title: `A Fresh Take On Lego Star Wars: Creative Play Droid Builder Revealed`,
+                 	type: `news`,
+                 	date: `29th June 2024`,
+                 	link: `2024/creative-droid-builder.html`
                  }
                  
                  ];
