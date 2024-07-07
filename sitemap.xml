@@ -28,4 +28,12 @@
         <loc>https://thebrickbuff.com/articles/2024/rtg-darkfalcon.html</loc>
         <priority>0.8</priority>
     </url>
+    <url>
+        <loc>https://thebrickbuff.com/articles/2024/desert-skiff-and-sarlacc-pit.html</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://thebrickbuff.com/articles/2024/creative-droid-builder.html</loc>
+        <priority>0.8</priority>
+    </url>
 </urlset>

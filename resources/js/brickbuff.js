@@ -196,6 +196,13 @@ const articleListOrigional = [
                  	type: `news`,
                  	date: `29th June 2024`,
                  	link: `2024/creative-droid-builder.html`
+                 },
+                 {
+                 	img: `2024/article-images/desert-skiff/desert-skiff11.webp`,
+                 	title: `Revisit Tatooine's Dune Sea: Desert Skiff & Sarlacc Pit (August 1st)`,
+                 	type: `news`,
+                 	date: `6th July 2024`,
+                 	link: `2024/desert-skiff-and-sarlacc-pit.html`
                  }
                  
                  ];
@@ -415,10 +422,16 @@ const articelFooterLinksFunc = (allArticles) => {
 
     let c = 0;
 
+     const removeSpecial = (s) => {
+         return s.replace('&amp;','&')
+      };
+
+    console.log(removeSpecial(articleTitle));
+
 	for(i=0; i<2; i++){
 
 
-		if (allArticles[c].title === articleTitle) {
+		if (removeSpecial(allArticles[c].title) === removeSpecial(articleTitle)) {
             
             c++;
 
@@ -428,7 +441,7 @@ const articelFooterLinksFunc = (allArticles) => {
 
             c++
 
-		} else if (allArticles[c].title != articleTitle) {
+		} else if (removeSpecial(allArticles[c].title) != removeSpecial(articleTitle)) {
 
 		    const completeFootLink = first + allArticles[c].img + second + allArticles[c].title +third + allArticles[c].date + fourth + allArticles[c].link + fifth;
         
