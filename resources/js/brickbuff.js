@@ -203,6 +203,13 @@ const articleListOrigional = [
                  	type: `news`,
                  	date: `6th July 2024`,
                  	link: `2024/desert-skiff-and-sarlacc-pit.html`
+                 },
+                 {
+                 	img: `2024/article-images/duel-on-peridea/duel-on-peridea8.webp`,
+                 	title: `The Return of Grand Admiral Thrawn: Ahsoka Tano's Duel on Peridea (August 1st)`,
+                 	type: `news`,
+                 	date: `13th July 2024`,
+                 	link: `2024/ashoka-tanos-duel-on-peridea.html`
                  }
                  
                  ];
